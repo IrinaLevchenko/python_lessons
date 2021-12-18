@@ -6,5 +6,4 @@ while number > 0:
     if a > maxdigit:
         maxdigit = a
     number //= 10
-
 print(maxdigit)
