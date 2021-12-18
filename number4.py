@@ -1,12 +1,10 @@
-n = input('Введите целое положительное число: ')
-n = int(n)
+number = int(input('Введите целое положительное число: '))
 
-maxdigit = 0
-
-while n > 0:
-    a = n % 10
+maxdigit = 0  # самая большая цифра в числе
+while number > 0:
+    a = number % 10  # отделяем по цифре от числа. a - цифра
     if a > maxdigit:
         maxdigit = a
-    n = n // 10
+    number //= 10
 
 print(maxdigit)

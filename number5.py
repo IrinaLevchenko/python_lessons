@@ -12,5 +12,5 @@ else:
     print('Финансовый результат работы фирмы: издержек больше, чем прибыли.')
 
 number_employees = int(input('Введите численность сотрудников фирмы: '))
-pf_1employee = pr / number_employees
+pf_1employee = pr / number_employees  # прибыль фирмы в расчёте на одного сотрудника
 print('Прибыль фирмы в расчёте на одного сотрудника равна: ', pf_1employee)
