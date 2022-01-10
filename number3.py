@@ -1,11 +1,14 @@
-user_number = input('Введите число: ')
-num1 = user_number + user_number
-num2 = user_number + user_number + user_number
+#  Узнайте у пользователя число n.
+#  Найдите сумму чисел n + nn + nnn.
+#  Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369.
 
-user_number = int(user_number)
-num1 = int(num1)
-num2 = int(num2)
+# моё решение:
+#user_number = input('Введите число: ')
+#num1 = user_number + user_number
+#num2 = user_number + user_number + user_number
+#sum = int(user_number) + int(num1) + int(num2)
+#print(sum)
 
-sum = user_number + num1 + num2
-
-print(sum)
+# решение преподавателя
+n = input('Введите число: ')
+print(f'{n} + {n + n} + {n + n + n} = {int(n) + int(n + n) + int(n + n + n)}')
