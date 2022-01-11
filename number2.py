@@ -1,16 +1,19 @@
+#  Для списка реализовать обмен значений соседних элементов, т.е.
+#  Значениями обмениваются элементы с индексами 0 и 1, 2 и 3 и т.д.
+#  При нечетном количестве элементов последний сохранить на своем месте.
+#  Для заполнения списка элементов необходимо использовать функцию input().
+
 my_boyfriends = []
-count = 5
-i = count
-while i > 0:
+count = int(input('Введите количество своих парней: '))
+while count:
     name = input('Введите имя своего парня:')
     my_boyfriends.append(name)
-    i -= 1
-my_boyfriends = list(enumerate(my_boyfriends))
-print(my_boyfriends)
+    count -= 1
+print(f'Список парней: {my_boyfriends}')
 
-my_boyfriends[0], my_boyfriends[1] = my_boyfriends[1], my_boyfriends[0]
-my_boyfriends[2], my_boyfriends[3] = my_boyfriends[3], my_boyfriends[2]
-print(my_boyfriends)
+for i in range(1, len(my_boyfriends), 2):
+    my_boyfriends[i - 1], my_boyfriends[i] = my_boyfriends[i], my_boyfriends[i - 1]
+print(f'А лучше бы в таком порядке: {my_boyfriends}')
 
 
 

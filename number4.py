@@ -1,8 +1,8 @@
-user_text = input('Введите пожелание на Новый год.')
-user_text_list = user_text.split( )
+# Пользователь вводит строку из нескольких слов, разделённых пробелами.
+# Вывести каждое слово с новой строки. Строки необходимо пронумеровать.
+# Если в слово длинное, выводить только первые 10 букв в слове.
 
-for ind, el in enumerate(user_text_list, 1):
-    if len(el) > 10:
-        print(ind, el[:10])
-    else:
-        print(ind, el)
+user_text = input('Введите пожелание на Новый год: ').split()
+for ind, el in enumerate(user_text, 1):
+    print(ind, el[:10])
+
