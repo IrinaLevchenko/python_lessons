@@ -1,6 +1,14 @@
-def user_info(**kwargs):
-    return kwargs
+# Реализовать функцию, принимающую несколько параметров,
+# описывающих данные пользователя:
+# имя, фамилия, год рождения, город проживания, email, телефон.
+# Функция должна принимать параметры как именованные аргументы.
+# Реализовать вывод данных о пользователе одной строкой.
+
+def personal_info(**kwargs):
+    return ' '.join(kwargs.values())
 
 
-print(user_info(name='Ira', lastname='Levchenko', birthyear=1991, city='Brest',
-                email='lisathe1dancer@gmail.com', phone='+375295286632'))
+print(personal_info(name=(input('Введите имя: ')), lastname=(input('Введите фамилию: ')),
+                birthyear=(input('Введите год рождения: ')), city=(input('Введите город проживания: ')),
+                email=(input('Введите email: ')), phone=(input('Введите номер телефона: '))))
+
