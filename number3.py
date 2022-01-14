@@ -16,6 +16,7 @@ class Position(Worker):
     def get_total_income(self):
         return f'Total income: {sum(self._income_byn.values())}'
 
+
 p = Position('Ira', 'Lev', 'pharmacist', 900, 800)
 print(p.get_full_name())
 print(p.position)

@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56111840-6380-4fce-a067-26a36eed70ef" name="Changes" comment="Corrected all files after teacher's checkup">
-      <change afterPath="$PROJECT_DIR$/number1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_lessons.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="56111840-6380-4fce-a067-26a36eed70ef" name="Changes" comment="All files complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number2.py" beforeDir="false" afterPath="$PROJECT_DIR$/number2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="GitIgnore" />
   </component>
-  <component name="RunManager" selected="Python.number5">
+  <component name="RunManager" selected="Python.number2 (1)">
     <configuration name="number1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,10 +162,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.number2 (1)" />
         <item itemvalue="Python.number5" />
         <item itemvalue="Python.number4.py" />
         <item itemvalue="Python.number3.py" />
-        <item itemvalue="Python.number2 (1)" />
         <item itemvalue="Python.number1" />
       </list>
     </recent_temporary>
@@ -279,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642182566750</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="All files complete">
+      <created>1642202010805</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642202010805</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,6 +315,7 @@
     <MESSAGE value="Corrected all files" />
     <MESSAGE value="Corrected number6.py files" />
     <MESSAGE value="Corrected all files after teacher's checkup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected all files after teacher's checkup" />
+    <MESSAGE value="All files complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="All files complete" />
   </component>
 </project>
