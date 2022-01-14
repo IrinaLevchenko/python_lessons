@@ -1,5 +1,9 @@
-with open('file_task_1.txt', 'w') as f:
-    first_str = input('Введите тескт: ')
-    second_str = input('Ещё введите текст: ')
-    third_str = ' '
-    f.writelines(f'{first_str}\n{second_str}\n{third_str}')
+#  Создать программный файл в текстовом формате, записать в него построчно данные, вводимые пользователем.
+#  Об окончании ввода данных будет свидетельствовать пустая строка.
+
+with open('file_task_1.txt', 'w', encoding='utf-8') as f:
+   while True:
+        line = input('Введите строку, чтобы выйти нажмите Enter: ')
+        if not line:
+            break
+        f.write(f'{line}\n')
