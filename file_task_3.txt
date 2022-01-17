@@ -1,4 +1,4 @@
-Levchenko:30000
-Fursenko:40000
-Chomitch:20000
-Ivanov:10000
+Levchenko 30000
+Fursenko 40000
+Chomitch 20000
+Ivanov 10000
