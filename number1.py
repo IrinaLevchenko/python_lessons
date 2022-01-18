@@ -8,7 +8,7 @@ class Matrix:
 
     def __add__(self):
         matrix_new = [[0, 0, 0],
-                         [0, 0, 0]]  # [[6, -1, -4], [1, 5, 1]]
+                      [0, 0, 0]]  # [[6, -1, -4], [1, 5, 1]]
         for i in range(len(self.list_1)):
             for j in range(len(self.list_2[i])):
                 matrix_new[i][j] = self.list_1[i][j] + self.list_2[i][j]
