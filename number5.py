@@ -7,26 +7,17 @@ class Stationery:
 
 
 class Pen(Stationery):
-    def __init__(self, title):
-        super().__init__(title)
-
-    def draw(self):
+     def draw(self):
         print(f'{self.title}. Подберите цвет стержня! Запуск отрисовки.')
 
 
 class Pencil(Stationery):
-    def __init__(self, title):
-        super().__init__(title)
-
     def draw(self):
         print(f'{self.title} имеет разную ширину грифеля, подберите нужную! Запуск отрисовки.')
 
 
 class Handle(Stationery):
-    def __init__(self, title):
-        super().__init__(title)
-
-    def draw(self):
+     def draw(self):
         print(f'{self.title} может просвечивать тескт (или нет), обратите внимание! Запуск отрисовки.')
 
 

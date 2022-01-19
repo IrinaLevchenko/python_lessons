@@ -1,3 +1,13 @@
+#  Реализуйте базовый класс Car.
+# у класса должны быть следующие атрибуты: speed, color, name, is_police (булево).
+# А также методы: go, stop, turn(direction), которые должны сообщать,
+# что машина поехала, остановилась, повернула (куда);
+# опишите несколько дочерних классов: TownCar, SportCar, WorkCar, PoliceCar;
+# добавьте в базовый класс метод show_speed, который должен показывать текущую скорость автомобиля;
+# для классов TownCar и WorkCar переопределите метод show_speed.
+# При значении скорости свыше 60 (TownCar) и 40 (WorkCar) должно выводиться сообщение о превышении скорости.
+# Создайте экземпляры классов, передайте значения атрибутов.
+# Выполните доступ к атрибутам, выведите результат. Вызовите методы и покажите результат.
 class Car:
     def __init__(self, speed, color, name, is_police):
         self.speed = speed
@@ -15,41 +25,31 @@ class Car:
         self.direction = direction
         print(f'Машина {self.name} повернула {direction}!')
 
-    def show_speed(self, current_speed):
-        self.current_speed = current_speed
-        print(f'Машина {self.name} едет со скоростью {current_speed}км/ч.')
+    def show_speed(self):
+        print(f'Машина {self.name} едет со скоростью {self.speed}км/ч.')
 
     def show_attributes(self):
         print(f'Машина {self.name}: скорость {self.speed}, цвет {self.color}, ментовская?{self.is_police}')
 
 
 class TownCar(Car):
-    def __init__(self, speed, color, name, is_police):
-        super().__init__(speed, color, name, is_police)
-
-    def show_speed(self, current_speed):
-        self.current_speed = current_speed
-        if current_speed > 60:
+    def show_speed(self):
+        if self.speed >= 60:
             print(f'{self.name} едет с превышением скорости! Не выше 60 км/ч!')
         else:
-            print(f'Машина {self.name} едет со скоростью {current_speed}км/ч.')
+            print(f'Машина {self.name} едет со скоростью {self.speed}км/ч.')
 
 
 class SportCar(Car):
-    def __init__(self, speed, color, name, is_police):
-        super().__init__(speed, color, name, is_police)
+    """Спортивый автомобиль"""
 
 
 class WorkCar(Car):
-    def __init__(self, speed, color, name, is_police):
-        super().__init__(speed, color, name, is_police)
-
-    def show_speed(self, current_speed):
-        self.current_speed = current_speed
-        if current_speed > 40:
-            print(f'{self.name} едет с превышением скорости! Не выше 40 км/ч!')
+    def show_speed(self):
+        if self.speed >= 40:
+            print(f'Машина {self.name} едет со скоростью {self.speed}км/ч.')
         else:
-            print(f'Машина {self.name} едет со скоростью {current_speed}км/ч.')
+            print(f'{self.name} едет с превышением скорости! Не выше 40 км/ч!')
 
 
 class PoliceCar(Car):
@@ -66,8 +66,8 @@ uaz = PoliceCar(30, 'уродский', 'бобик', True)
 ford.turn('налево')
 mustang.go()
 uaz.stop()
-vw.show_speed(50)
-toyota.show_speed(80)
-mustang.show_speed(300)
+vw.show_speed()
+toyota.show_speed()
+mustang.show_speed()
 uaz.show_attributes()
 print(ford.name)

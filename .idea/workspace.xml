@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56111840-6380-4fce-a067-26a36eed70ef" name="Changes" comment="All files complete">
-      <change beforePath="$PROJECT_DIR$/file_task_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file_task_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_task_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file_task_4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_file_task_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_file_task_4.txt" afterDir="false" />
+    <list default="true" id="56111840-6380-4fce-a067-26a36eed70ef" name="Changes" comment="All files completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number1.py" beforeDir="false" afterPath="$PROJECT_DIR$/number1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number2.py" beforeDir="false" afterPath="$PROJECT_DIR$/number2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/number3.py" beforeDir="false" afterPath="$PROJECT_DIR$/number3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number4.py" beforeDir="false" afterPath="$PROJECT_DIR$/number4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw6" />
+        <entry key="$PROJECT_DIR$" value="hw5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="GitIgnore" />
   </component>
-  <component name="RunManager" selected="Python.number4.py">
+  <component name="RunManager" selected="Python.number5">
     <configuration name="number1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +165,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.number5" />
         <item itemvalue="Python.number4.py" />
         <item itemvalue="Python.number3.py" />
-        <item itemvalue="Python.number2 (1)" />
-        <item itemvalue="Python.number5" />
         <item itemvalue="Python.number1" />
+        <item itemvalue="Python.number2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +287,42 @@
       <option name="project" value="LOCAL" />
       <updated>1642268942167</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="All files complete after last check up">
+      <created>1642450753697</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642450753697</updated>
+    </task>
+    <task id="LOCAL-00017" summary="All files complete after last check up">
+      <created>1642450843988</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1642450843988</updated>
+    </task>
+    <task id="LOCAL-00018" summary="created the files">
+      <created>1642451533560</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642451533560</updated>
+    </task>
+    <task id="LOCAL-00019" summary="number1.py completed">
+      <created>1642462344495</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1642462344495</updated>
+    </task>
+    <task id="LOCAL-00020" summary="All files completed">
+      <created>1642521314392</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1642521314392</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +336,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="hw6" />
+                        <option value="hw5" />
                       </list>
                     </value>
                   </entry>
@@ -325,6 +361,10 @@
     <MESSAGE value="Corrected number6.py files" />
     <MESSAGE value="Corrected all files after teacher's checkup" />
     <MESSAGE value="All files complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="All files complete" />
+    <MESSAGE value="All files complete after last check up" />
+    <MESSAGE value="created the files" />
+    <MESSAGE value="number1.py completed" />
+    <MESSAGE value="All files completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All files completed" />
   </component>
 </project>
